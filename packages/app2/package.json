@@ -1,0 +1,13 @@
+{
+  "name": "app2",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack serve --config build-utils/webpack.config.js --env env=dev",
+    "build": "webpack --config build-utils/webpack.config.js --env env=prod"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
