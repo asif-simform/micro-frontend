@@ -9,6 +9,3 @@ const container = document.getElementById('app');
 const root = createRoot(container);
 
 root.render(<App title={title} />);
-
-// @ts-ignore
-module.hot.accept();

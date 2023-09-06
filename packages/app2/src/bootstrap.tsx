@@ -7,6 +7,3 @@ const container = document.getElementById('app');
 const root = createRoot(container);
 
 root.render(<App />);
-
-// @ts-ignore
-module.hot.accept();
