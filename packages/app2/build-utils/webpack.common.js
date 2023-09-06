@@ -62,7 +62,7 @@ module.exports = {
     filename: "bundle.js",
   },
   devServer: {
-    port: 3001,
+    port: 3002,
     static: path.resolve(__dirname, "..", "./dist"),
     hot: true,
   },
