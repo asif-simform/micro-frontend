@@ -1,7 +1,7 @@
 import * as React from "react";
 
 interface IProps {
-    children: React.ReactNode | any;
+    children: React.ReactNode;
     appName: string;
 }
 
