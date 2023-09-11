@@ -10,7 +10,7 @@
 - Simplify updates
 - Independent deploy
 
-# Read more about <a href="https://microfrontends.com/ ">Micro frontends</a>
+# If you'd like more specifics, look into this article <a href="https://medium.com/p/ca3c6b9b3b23/edit/ ">Click here</a>
 
 
 # 📖  App architecture 
