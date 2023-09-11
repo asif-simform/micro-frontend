@@ -14,8 +14,8 @@ module.exports = {
     new HtmlWebpackPlugin({
       title: "Building Scalable and Modular Web Applications with Micro Frontends and Webpack Module Federation",
       template: path.resolve(__dirname, "..", "./src/index.html"),
-      app1RemoteEntry: getProdRemoteEntryUrl("https://mfe-webpack-app1.vercel.app"),
-      app2RemoteEntry: getProdRemoteEntryUrl("https://mfe-webpack-app2.vercel.app"),
+      app1RemoteEntry: getProdRemoteEntryUrl("https://mfe-app1.vercel.app"),
+      app2RemoteEntry: getProdRemoteEntryUrl("https://mfe-app2.vercel.app"),
     }),
   ],
   devtool: "source-map",
