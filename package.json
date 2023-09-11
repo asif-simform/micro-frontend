@@ -12,7 +12,9 @@
     ]
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start:core-ui": "yarn workspace core-ui start",
+    "start:app1": "yarn workspace app1 start",
+    "start:app2": "yarn workspace app2 start"
   },
   "repository": {
     "type": "git",
