@@ -12,7 +12,7 @@ module.exports = {
       }
     }),
     new HtmlWebpackPlugin({
-      title: "Building Scalable and Modular Web Applications with Micro Frontends and Webpack Module Federation",
+      title: "Building Scalable and Modular Web Applications with React, Micro Frontends and Webpack Module Federation",
       template: path.resolve(__dirname, "..", "./src/index.html"),
       app1RemoteEntry: getDevRemoteEntryUrl(3001),
       app2RemoteEntry: getDevRemoteEntryUrl(3002),

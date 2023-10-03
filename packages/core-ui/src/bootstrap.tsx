@@ -3,7 +3,7 @@ import { createRoot } from 'react-dom/client';
 
 import App from './App';
  
-const title = 'Building Scalable and Modular Web Applications with Micro Frontends and Webpack Module Federation';
+const title = 'Building Scalable and Modular Web Applications with React, Micro Frontends and Webpack Module Federation';
  
 const container = document.getElementById('app');
 const root = createRoot(container);

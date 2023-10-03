@@ -1,5 +1,12 @@
 import * as React from "react";
 
-const App = () => <div>App 1</div>;
+const App = () => (
+  <fieldset>
+    <legend>MFE</legend>
+    <h1>
+      <center>App 1</center>
+    </h1>
+  </fieldset>
+);
 
 export default App;

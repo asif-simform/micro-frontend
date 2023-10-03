@@ -11,7 +11,7 @@ interface AppProps {
 
 const App: React.FC<AppProps> = ({ title }) => (
   <div>
-    <h1>{title}</h1>
+    <h1><center>{title}</center></h1>
     <ErrorBoundary appName="App 1">
       <React.Suspense fallback="Loading App1">
         <App1 />
