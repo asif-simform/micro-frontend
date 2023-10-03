@@ -1,9 +1,17 @@
 import * as React from 'react';
 import ErrorBoundary from "./components/ErrorBoundry";
+
 // @ts-ignore
-const App1 = React.lazy(() => import("app1/App"));
+const App1 = React.lazy(() => import("app1/App").catch(() => {
+  // @ts-ignore
+  return import("./components/Fallback");
+}));
+
 // @ts-ignore
-const App2 = React.lazy(() => import("app2/App"));
+const App2 = React.lazy(() => import("app2/App").catch(() => {
+  // @ts-ignore
+  return import("./components/Fallback");
+}));
 
 interface AppProps {
   title: string
